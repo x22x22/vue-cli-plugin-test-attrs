@@ -22,7 +22,7 @@ export default {
       default: ''
     }
   },
-  mounted() {
+  created() {
     window.xx = this.$el;
     console.log(this.edspId);
   }
